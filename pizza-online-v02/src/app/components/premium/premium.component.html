@@ -1,1 +1,5 @@
-<p>premium works!</p>
+<ul class="mt-5">
+  <li *ngFor="let item of premiums">
+    {{ item["name"] }} : ${{ item["price"] }}
+  </li>
+</ul>
